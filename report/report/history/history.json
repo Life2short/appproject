@@ -1,0 +1,57 @@
+{
+  "1929c20330eff0760405030aae4c0c47" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "2d2658b3236829c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574694541312,
+        "stop" : 1574694568728,
+        "duration" : 27416
+      }
+    }, {
+      "uid" : "6e8d913c5a51f582",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574692564234,
+        "stop" : 1574692586132,
+        "duration" : 21898
+      }
+    } ]
+  },
+  "f87fd71c7504ef50bd2a5d7bec2a1691" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "8f0b1396b938098a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574694395118,
+        "stop" : 1574694420895,
+        "duration" : 25777
+      }
+    }, {
+      "uid" : "3dae6afdc7cfa1c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \n\nassert_expectations() called from\n\"test_create_task_fails.py\" line 29, in test_create_task()\n\nFailed Expectations:1\n\n1: file \"test_create_task_fails.py\", line 27, in test_create_task()\n任务名称错误\n        expect (task==\"title\",\"任务名称错误\")",
+      "time" : {
+        "start" : 1574692442411,
+        "stop" : 1574692467730,
+        "duration" : 25319
+      }
+    } ]
+  }
+}

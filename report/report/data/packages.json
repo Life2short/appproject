@@ -1,0 +1,43 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_case",
+    "children" : [ {
+      "name" : "test_create_task_fails",
+      "children" : [ {
+        "name" : "创建任务",
+        "uid" : "8f0b1396b938098a",
+        "parentUid" : "39537ac52d0fc6e4e0b3f104bb27d331",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574694395118,
+          "stop" : 1574694420895,
+          "duration" : 25777
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "39537ac52d0fc6e4e0b3f104bb27d331"
+    }, {
+      "name" : "test_create_tasks",
+      "children" : [ {
+        "name" : "创建任务",
+        "uid" : "2d2658b3236829c1",
+        "parentUid" : "03c635084b4c749ef021ecf058c9f4fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574694541312,
+          "stop" : 1574694568728,
+          "duration" : 27416
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "03c635084b4c749ef021ecf058c9f4fb"
+    } ],
+    "uid" : "3b2e467b921b0ea8d4803b9c79d92d0c"
+  } ]
+}

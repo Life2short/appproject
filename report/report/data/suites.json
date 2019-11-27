@@ -1,0 +1,51 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_case",
+    "children" : [ {
+      "name" : "test_create_task_fails",
+      "children" : [ {
+        "name" : "TestFixture",
+        "children" : [ {
+          "name" : "创建任务",
+          "uid" : "8f0b1396b938098a",
+          "parentUid" : "86094cb3f776f7af9a5e1e748c5e5903",
+          "status" : "passed",
+          "time" : {
+            "start" : 1574694395118,
+            "stop" : 1574694420895,
+            "duration" : 25777
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "86094cb3f776f7af9a5e1e748c5e5903"
+      } ],
+      "uid" : "dde04e5033ac0e61f84a90b99b54e59b"
+    }, {
+      "name" : "test_create_tasks",
+      "children" : [ {
+        "name" : "TestFixture",
+        "children" : [ {
+          "name" : "创建任务",
+          "uid" : "2d2658b3236829c1",
+          "parentUid" : "62a241b0444db27bae808fdf58461914",
+          "status" : "passed",
+          "time" : {
+            "start" : 1574694541312,
+            "stop" : 1574694568728,
+            "duration" : 27416
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "62a241b0444db27bae808fdf58461914"
+      } ],
+      "uid" : "7dcda60fe7304978a832434c14a704fe"
+    } ],
+    "uid" : "86abcc46617c603d802c3e378b13740e"
+  } ]
+}

@@ -1,0 +1,9 @@
+2019-11-06 23:07:04,334 myunit_py.py[line:10] INFO =====setUp====
+2019-11-06 23:07:04,340 testlogin.py[line:12] INFO ======test_click=====
+2019-11-06 23:07:04,340 myunit_py.py[line:19] INFO ====tearDown====
+2019-11-06 23:07:25,316 myunit_py.py[line:10] INFO =====setUp====
+2019-11-06 23:07:25,316 testlogin.py[line:12] INFO ======test_click=====
+2019-11-06 23:07:25,316 myunit_py.py[line:19] INFO ====tearDown====
+2019-11-06 23:07:47,386 myunit_py.py[line:10] INFO =====setUp====
+2019-11-06 23:07:47,387 testlogin.py[line:12] INFO ======test_click=====
+2019-11-06 23:07:47,387 myunit_py.py[line:19] INFO ====tearDown====

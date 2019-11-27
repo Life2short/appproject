@@ -1,0 +1,145 @@
+{
+  "uid" : "3b9f381d043474a1",
+  "name" : "创建任务",
+  "fullName" : "test_case.test_create_task_fails.TestFixture#test_create_task",
+  "historyId" : "f87fd71c7504ef50bd2a5d7bec2a1691",
+  "time" : {
+    "start" : 1574692442411,
+    "stop" : 1574692467730,
+    "duration" : 25319
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: \n\nassert_expectations() called from\n\"test_create_task_fails.py\" line 29, in test_create_task()\n\nFailed Expectations:1\n\n1: file \"test_create_task_fails.py\", line 27, in test_create_task()\n任务名称错误\n        expect (task==\"title\",\"任务名称错误\")",
+  "statusTrace" : "self = <test_create_task_fails.TestFixture object at 0x0000021264ABA208>\n\n    @allure.severity(\"critical\")  # 优先级，包含blocker, critical, normal, minor, trivial 几个不同的等级\n    @allure.feature(\"测试模块_demo1\")  # 功能块，feature功能分块时比story大,即同时存在feature和story时,feature为父节点\n    @allure.story(\"测试模块_demo2\")  # 功能块，具有相同feature或story的用例将规整到相同模块下,执行时可用于筛选\n    @allure.issue(\"BUG号：123\")  # 问题表识，关联标识已有的问题，可为一个url链接地址\n    @allure.testcase(\"用例名：测试字符串相等\")  # 用例标识，关联标识用例，可为一个url链接地址\n    def test_create_task(self):\n        with allure.step(\"创建任务\"):\n            allure.attach(\"第一个步骤\",\"pass\")\n    \n        l = DateView(self.driver)\n        title=l.get_timestamp()\n        task=l.create_task(title)\n        expect (task==\"title\",\"任务名称错误\")\n        l.delete_task()\n>       assert_expectations()\n\n..\\test_case\\test_create_task_fails.py:29: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\n    def assert_expectations():\n        'raise an assert if there are any failed expectations'\n        if _failed_expectations:\n>           assert False, _report_failures()\nE           AssertionError: \nE           \nE           assert_expectations() called from\nE           \"test_create_task_fails.py\" line 29, in test_create_task()\nE           \nE           Failed Expectations:1\nE           \nE           1: file \"test_create_task_fails.py\", line 27, in test_create_task()\nE           任务名称错误\nE                   expect (task==\"title\",\"任务名称错误\")\n\n..\\common\\delayedAssert.py:37: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: \n\nassert_expectations() called from\n\"test_create_task_fails.py\" line 29, in test_create_task()\n\nFailed Expectations:1\n\n1: file \"test_create_task_fails.py\", line 27, in test_create_task()\n任务名称错误\n        expect (task==\"title\",\"任务名称错误\")",
+    "statusTrace" : "self = <test_create_task_fails.TestFixture object at 0x0000021264ABA208>\n\n    @allure.severity(\"critical\")  # 优先级，包含blocker, critical, normal, minor, trivial 几个不同的等级\n    @allure.feature(\"测试模块_demo1\")  # 功能块，feature功能分块时比story大,即同时存在feature和story时,feature为父节点\n    @allure.story(\"测试模块_demo2\")  # 功能块，具有相同feature或story的用例将规整到相同模块下,执行时可用于筛选\n    @allure.issue(\"BUG号：123\")  # 问题表识，关联标识已有的问题，可为一个url链接地址\n    @allure.testcase(\"用例名：测试字符串相等\")  # 用例标识，关联标识用例，可为一个url链接地址\n    def test_create_task(self):\n        with allure.step(\"创建任务\"):\n            allure.attach(\"第一个步骤\",\"pass\")\n    \n        l = DateView(self.driver)\n        title=l.get_timestamp()\n        task=l.create_task(title)\n        expect (task==\"title\",\"任务名称错误\")\n        l.delete_task()\n>       assert_expectations()\n\n..\\test_case\\test_create_task_fails.py:29: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\n    def assert_expectations():\n        'raise an assert if there are any failed expectations'\n        if _failed_expectations:\n>           assert False, _report_failures()\nE           AssertionError: \nE           \nE           assert_expectations() called from\nE           \"test_create_task_fails.py\" line 29, in test_create_task()\nE           \nE           Failed Expectations:1\nE           \nE           1: file \"test_create_task_fails.py\", line 27, in test_create_task()\nE           任务名称错误\nE                   expect (task==\"title\",\"任务名称错误\")\n\n..\\common\\delayedAssert.py:37: AssertionError",
+    "steps" : [ {
+      "name" : "创建任务",
+      "time" : {
+        "start" : 1574692442411,
+        "stop" : 1574692442414,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "949c0ac6fb5f1626",
+        "name" : "pass",
+        "source" : "949c0ac6fb5f1626.attach",
+        "type" : "text/plain",
+        "size" : 15
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "创建任务",
+      "time" : {
+        "start" : 1574692442415,
+        "stop" : 1574692460597,
+        "duration" : 18182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "'1574692442'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "删除任务",
+      "time" : {
+        "start" : 1574692461047,
+        "stop" : 1574692467682,
+        "duration" : 6635
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "126a8e369b98fdc4",
+      "name" : "log",
+      "source" : "126a8e369b98fdc4.txt",
+      "type" : "text/plain",
+      "size" : 3205
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试模块_demo2"
+  }, {
+    "name" : "feature",
+    "value" : "测试模块_demo1"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFixture"
+  }, {
+    "name" : "suite",
+    "value" : "test_create_task_fails"
+  }, {
+    "name" : "host",
+    "value" : "rachel"
+  }, {
+    "name" : "thread",
+    "value" : "19560-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_create_task_fails"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "用例名：测试字符串相等",
+    "url" : "用例名：测试字符串相等",
+    "type" : "test_case"
+  }, {
+    "name" : "BUG号：123",
+    "url" : "BUG号：123",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3b9f381d043474a1.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,178 @@
+{
+  "uid" : "2d2658b3236829c1",
+  "name" : "创建任务",
+  "fullName" : "test_case.test_create_tasks.TestFixture#test_create_task",
+  "historyId" : "1929c20330eff0760405030aae4c0c47",
+  "time" : {
+    "start" : 1574694541312,
+    "stop" : 1574694568728,
+    "duration" : 27416
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "创建任务",
+      "time" : {
+        "start" : 1574694541312,
+        "stop" : 1574694541314,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c976f1eca45a7bd2",
+        "name" : "pass",
+        "source" : "c976f1eca45a7bd2.attach",
+        "type" : "text/plain",
+        "size" : 15
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "创建任务",
+      "time" : {
+        "start" : 1574694541315,
+        "stop" : 1574694562350,
+        "duration" : 21035
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "'1574694541'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "删除任务",
+      "time" : {
+        "start" : 1574694562351,
+        "stop" : 1574694568728,
+        "duration" : 6377
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b752e3d5b0aadfe7",
+      "name" : "log",
+      "source" : "b752e3d5b0aadfe7.txt",
+      "type" : "text/plain",
+      "size" : 3205
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试模块_demo2"
+  }, {
+    "name" : "feature",
+    "value" : "测试模块_demo1"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFixture"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_create_tasks"
+  }, {
+    "name" : "host",
+    "value" : "rachel"
+  }, {
+    "name" : "thread",
+    "value" : "26236-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_create_tasks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "用例名：测试字符串相等",
+    "url" : "用例名：测试字符串相等",
+    "type" : "test_case"
+  }, {
+    "name" : "BUG号：123",
+    "url" : "BUG号：123",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "55efff775b1951af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574692564234,
+        "stop" : 1574692586132,
+        "duration" : 21898
+      }
+    }, {
+      "uid" : "1a1083c549897b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574691374527,
+        "stop" : 1574691400321,
+        "duration" : 25794
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6e8d913c5a51f582",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574692564234,
+          "stop" : 1574692586132,
+          "duration" : 21898
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2d2658b3236829c1.json",
+  "parameterValues" : [ ]
+}

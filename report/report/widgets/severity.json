@@ -1,0 +1,21 @@
+[ {
+  "uid" : "8f0b1396b938098a",
+  "name" : "创建任务",
+  "time" : {
+    "start" : 1574694395118,
+    "stop" : 1574694420895,
+    "duration" : 25777
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2d2658b3236829c1",
+  "name" : "创建任务",
+  "time" : {
+    "start" : 1574694541312,
+    "stop" : 1574694568728,
+    "duration" : 27416
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

@@ -1,0 +1,46 @@
+INFO     root:myunit_py.py:11 =====setUp====
+INFO     root:desired_caps.py:26 start app...
+INFO     root:myunit_py.py:13 ======test_login_zxw2018=====
+INFO     root:common_fun.py:17 ==========check_cancelBtn=========
+INFO     root:common_fun.py:26 =========check skipBtn=============
+INFO     root:loginView.py:26 ============login_action==============
+INFO     root:loginView.py:27 username is:自学网2018
+INFO     root:baseView.py:17 find_element：('id', 'com.tal.kaoyan:id/login_email_edittext')
+INFO     root:loginView.py:30 password is:zxw2018
+INFO     root:baseView.py:17 find_element：('id', 'com.tal.kaoyan:id/login_password_edittext')
+INFO     root:loginView.py:33 click loginBtn
+INFO     root:baseView.py:17 find_element：('id', 'com.tal.kaoyan:id/login_login_btn')
+INFO     root:loginView.py:35 login finished!
+INFO     root:loginView.py:48 ====check_loginStatus======
+INFO     root:common_fun.py:77 ====check_market_ad====
+INFO     root:loginView.py:38 =====check_account_alert====
+INFO     root:baseView.py:53 find_element：('id', 'com.tal.kaoyan:id/tip_commit')
+INFO     root:baseView.py:17 find_element：('id', 'com.tal.kaoyan:id/mainactivity_button_mysefl')
+INFO     root:baseView.py:17 find_element：('id', 'com.tal.kaoyan:id/activity_usercenter_username')
+INFO     root:loginView.py:64 login success!
+INFO     root:dateView.py:58 ============create_task==============
+INFO     root:baseView.py:17 find_element：('id', 'com.tal.kaoyan:id/mainactivity_button_calendar')
+INFO     root:baseView.py:17 find_element：('id', 'com.tal.kaoyan:id/task_no_task')
+INFO     root:baseView.py:43 点击成功
+INFO     root:baseView.py:17 find_element：('id', 'com.tal.kaoyan:id/activity_date_addtask_tasktitle')
+INFO     root:baseView.py:33 输入：1574691247
+INFO     root:baseView.py:17 find_element：('id', 'com.tal.kaoyan:id/myapptitle_RightButton_textview')
+INFO     root:baseView.py:43 点击成功
+INFO     root:baseView.py:17 find_element：('id', 'com.tal.kaoyan:id/home_task_title')
+INFO     root:baseView.py:17 find_element：('id', 'com.tal.kaoyan:id/home_task_title')
+INFO     root:dateView.py:76 任务名称：1574691247
+INFO     root:dateView.py:80 存在任务，并进行删除
+INFO     root:baseView.py:17 find_element：('id', 'com.tal.kaoyan:id/home_task_title')
+INFO     root:baseView.py:43 点击成功
+INFO     root:baseView.py:17 find_element：('id', 'com.tal.kaoyan:id/ivDelete')
+INFO     root:baseView.py:43 点击成功
+INFO     root:baseView.py:17 find_element：('id', 'android:id/button1')
+INFO     root:baseView.py:43 点击成功
+INFO     root:myunit_py.py:20 ====tearDown====
+INFO     root:myunit_py.py:23 ====logout====
+INFO     root:loginView.py:69 =====logout_action======
+INFO     root:baseView.py:17 find_element：('id', 'com.tal.kaoyan:id/mainactivity_button_mysefl')
+INFO     root:baseView.py:17 find_element：('id', 'com.tal.kaoyan:id/activity_usercenter_username')
+INFO     root:baseView.py:17 find_element：('id', 'com.tal.kaoyan:id/myapptitle_RightButton_textview')
+INFO     root:baseView.py:17 find_element：('id', 'com.tal.kaoyan:id/setting_logout_text')
+INFO     root:baseView.py:17 find_element：('id', 'com.tal.kaoyan:id/tip_commit')

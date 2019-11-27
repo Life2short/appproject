@@ -1,0 +1,24 @@
+platformName: Android
+#模拟器
+platformVersion: 5.0
+udid: emulator-5554
+deviceName: Android5.1.1
+
+#mx4真机
+#platformVersion: 5.0
+#udid: fb91b6ed
+#deviceName: SM_N9002
+
+appname: kaoyan3.1.0.apk
+noReset: False
+unicodeKeyboard: True
+resetKeyboard: True
+
+appPackage: com.tal.kaoyan
+appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+ip: 127.0.0.1
+port: 4723
+
+
+USER_ACCOUNT: 自学网2018
+USER_PASSWORD: zxw2018

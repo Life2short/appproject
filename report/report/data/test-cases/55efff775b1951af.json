@@ -1,0 +1,141 @@
+{
+  "uid" : "55efff775b1951af",
+  "name" : "创建任务",
+  "fullName" : "test_case.test_create_tasks.TestFixture#test_create_task",
+  "historyId" : "1929c20330eff0760405030aae4c0c47",
+  "time" : {
+    "start" : 1574692564234,
+    "stop" : 1574692586132,
+    "duration" : 21898
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "创建任务",
+      "time" : {
+        "start" : 1574692564234,
+        "stop" : 1574692564236,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b98c4503cdf3280e",
+        "name" : "pass",
+        "source" : "b98c4503cdf3280e.attach",
+        "type" : "text/plain",
+        "size" : 15
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "创建任务",
+      "time" : {
+        "start" : 1574692564237,
+        "stop" : 1574692579988,
+        "duration" : 15751
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "'1574692564'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "删除任务",
+      "time" : {
+        "start" : 1574692579988,
+        "stop" : 1574692586132,
+        "duration" : 6144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "66ba5d8676fa646a",
+      "name" : "log",
+      "source" : "66ba5d8676fa646a.txt",
+      "type" : "text/plain",
+      "size" : 3205
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试模块_demo2"
+  }, {
+    "name" : "feature",
+    "value" : "测试模块_demo1"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFixture"
+  }, {
+    "name" : "suite",
+    "value" : "test_create_tasks"
+  }, {
+    "name" : "host",
+    "value" : "rachel"
+  }, {
+    "name" : "thread",
+    "value" : "19560-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_create_tasks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "用例名：测试字符串相等",
+    "url" : "用例名：测试字符串相等",
+    "type" : "test_case"
+  }, {
+    "name" : "BUG号：123",
+    "url" : "BUG号：123",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "55efff775b1951af.json",
+  "parameterValues" : [ ]
+}

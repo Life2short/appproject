@@ -1,0 +1,99 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "rachel",
+    "children" : [ {
+      "name" : "26236-MainThread",
+      "children" : [ {
+        "name" : "创建任务",
+        "uid" : "2d2658b3236829c1",
+        "parentUid" : "b150bb61fd2b5270449de53643815361",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574694541312,
+          "stop" : 1574694568728,
+          "duration" : 27416
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建任务",
+        "uid" : "8f0b1396b938098a",
+        "parentUid" : "b150bb61fd2b5270449de53643815361",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574694395118,
+          "stop" : 1574694420895,
+          "duration" : 25777
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b150bb61fd2b5270449de53643815361"
+    }, {
+      "name" : "4932-MainThread",
+      "children" : [ {
+        "name" : "创建任务",
+        "uid" : "9e9ddfde1f87f7c",
+        "parentUid" : "163dae0101c9420d76dd8dbaa0f5818a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1574691247682,
+          "stop" : 1574691271782,
+          "duration" : 24100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建任务",
+        "uid" : "1a1083c549897b8",
+        "parentUid" : "163dae0101c9420d76dd8dbaa0f5818a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574691374527,
+          "stop" : 1574691400321,
+          "duration" : 25794
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "163dae0101c9420d76dd8dbaa0f5818a"
+    }, {
+      "name" : "19560-MainThread",
+      "children" : [ {
+        "name" : "创建任务",
+        "uid" : "3b9f381d043474a1",
+        "parentUid" : "dbd5d0123207aff4990a1d016c14783a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1574692442411,
+          "stop" : 1574692467730,
+          "duration" : 25319
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建任务",
+        "uid" : "55efff775b1951af",
+        "parentUid" : "dbd5d0123207aff4990a1d016c14783a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574692564234,
+          "stop" : 1574692586132,
+          "duration" : 21898
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dbd5d0123207aff4990a1d016c14783a"
+    } ],
+    "uid" : "9a50d31c449b1df334e67226cb7244ac"
+  } ]
+}

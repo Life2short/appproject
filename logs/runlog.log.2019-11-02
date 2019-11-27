@@ -1,0 +1,70 @@
+2019-11-02 18:47:34,856 myunit.py[line:9] INFO =====setUp====
+2019-11-02 18:47:34,893 desired_caps.py[line:22] INFO start app...
+2019-11-02 18:48:42,780 myunit.py[line:11] INFO ======test_login_zxw2018=====
+2019-11-02 18:48:42,781 common_fun.py[line:86] INFO =====get_csv_data======
+2019-11-02 18:48:42,830 common_fun.py[line:17] INFO ==========check_cancelBtn=========
+2019-11-02 18:48:44,612 common_fun.py[line:26] INFO =========check skipBtn=============
+2019-11-02 18:48:45,866 loginView.py[line:26] INFO ============login_action==============
+2019-11-02 18:48:45,866 loginView.py[line:27] INFO username is:自学网2018
+2019-11-02 18:48:45,867 baseView.py[line:12] INFO find_element：('id', 'com.tal.kaoyan:id/login_email_edittext')
+2019-11-02 18:48:52,624 loginView.py[line:30] INFO password is:zxw2018
+2019-11-02 18:48:52,625 baseView.py[line:12] INFO find_element：('id', 'com.tal.kaoyan:id/login_password_edittext')
+2019-11-02 18:48:58,122 loginView.py[line:33] INFO click loginBtn
+2019-11-02 18:48:58,122 baseView.py[line:12] INFO find_element：('id', 'com.tal.kaoyan:id/login_login_btn')
+2019-11-02 18:48:58,880 loginView.py[line:35] INFO login finished!
+2019-11-02 18:48:58,880 loginView.py[line:48] INFO ====check_loginStatus======
+2019-11-02 18:48:58,881 common_fun.py[line:76] INFO ====check_market_ad====
+2019-11-02 18:49:07,881 loginView.py[line:38] INFO =====check_account_alert====
+2019-11-02 18:49:07,881 baseView.py[line:17] INFO find_element：('id', 'com.tal.kaoyan:id/tip_commit')
+2019-11-02 18:49:07,920 baseView.py[line:12] INFO find_element：('id', 'com.tal.kaoyan:id/mainactivity_button_mysefl')
+2019-11-02 18:49:10,603 baseView.py[line:12] INFO find_element：('id', 'com.tal.kaoyan:id/activity_usercenter_username')
+2019-11-02 18:49:10,751 loginView.py[line:61] INFO login success!
+2019-11-02 18:49:10,751 test_login.py[line:30] INFO ======test_click=====
+2019-11-02 18:49:10,751 riliView.py[line:18] INFO ============login_action==============
+2019-11-02 18:49:10,751 riliView.py[line:19] INFO click calendarBtn
+2019-11-02 18:49:10,752 baseView.py[line:12] INFO find_element：('id', 'com.tal.kaoyan:id/mainactivity_button_calendar')
+2019-11-02 18:49:11,606 riliView.py[line:22] INFO click recite_words
+2019-11-02 18:49:13,887 baseView.py[line:12] INFO find_element：('id', 'com.tal.kaoyan:id/home_fix_item_contentlayout')
+2019-11-02 18:49:17,303 baseView.py[line:12] INFO find_element：('id', 'com.tal.kaoyan:id/englishword_book_item_name')
+2019-11-02 18:49:35,596 riliView.py[line:36] INFO success!
+2019-11-02 18:49:37,061 myunit.py[line:18] INFO ====tearDown====
+2019-11-02 18:49:42,062 myunit.py[line:21] INFO ====logout====
+2019-11-02 18:49:42,063 loginView.py[line:66] INFO =====logout_action======
+2019-11-02 18:49:42,063 baseView.py[line:12] INFO find_element：('id', 'com.tal.kaoyan:id/mainactivity_button_mysefl')
+2019-11-02 18:51:23,975 myunit.py[line:9] INFO =====setUp====
+2019-11-02 18:51:24,036 desired_caps.py[line:22] INFO start app...
+2019-11-02 18:52:19,342 myunit.py[line:11] INFO ======test_login_zxw2018=====
+2019-11-02 18:52:19,342 common_fun.py[line:86] INFO =====get_csv_data======
+2019-11-02 18:52:19,347 common_fun.py[line:17] INFO ==========check_cancelBtn=========
+2019-11-02 18:52:21,263 common_fun.py[line:26] INFO =========check skipBtn=============
+2019-11-02 18:52:22,687 loginView.py[line:26] INFO ============login_action==============
+2019-11-02 18:52:22,688 loginView.py[line:27] INFO username is:自学网2018
+2019-11-02 18:52:22,688 baseView.py[line:12] INFO find_element：('id', 'com.tal.kaoyan:id/login_email_edittext')
+2019-11-02 18:52:29,517 loginView.py[line:30] INFO password is:zxw2018
+2019-11-02 18:52:29,517 baseView.py[line:12] INFO find_element：('id', 'com.tal.kaoyan:id/login_password_edittext')
+2019-11-02 18:52:35,395 loginView.py[line:33] INFO click loginBtn
+2019-11-02 18:52:35,395 baseView.py[line:12] INFO find_element：('id', 'com.tal.kaoyan:id/login_login_btn')
+2019-11-02 18:52:36,297 loginView.py[line:35] INFO login finished!
+2019-11-02 18:52:36,297 loginView.py[line:48] INFO ====check_loginStatus======
+2019-11-02 18:52:36,298 common_fun.py[line:76] INFO ====check_market_ad====
+2019-11-02 18:52:44,643 loginView.py[line:38] INFO =====check_account_alert====
+2019-11-02 18:52:44,643 baseView.py[line:17] INFO find_element：('id', 'com.tal.kaoyan:id/tip_commit')
+2019-11-02 18:52:44,660 baseView.py[line:12] INFO find_element：('id', 'com.tal.kaoyan:id/mainactivity_button_mysefl')
+2019-11-02 18:52:46,902 baseView.py[line:12] INFO find_element：('id', 'com.tal.kaoyan:id/activity_usercenter_username')
+2019-11-02 18:52:46,945 loginView.py[line:61] INFO login success!
+2019-11-02 18:52:46,946 test_login.py[line:30] INFO ======test_click=====
+2019-11-02 18:52:46,946 riliView.py[line:18] INFO ============login_action==============
+2019-11-02 18:52:46,947 riliView.py[line:19] INFO click calendarBtn
+2019-11-02 18:52:46,947 baseView.py[line:12] INFO find_element：('id', 'com.tal.kaoyan:id/mainactivity_button_calendar')
+2019-11-02 18:52:47,722 riliView.py[line:22] INFO click recite_words
+2019-11-02 18:52:49,773 baseView.py[line:12] INFO find_element：('id', 'com.tal.kaoyan:id/home_fix_item_contentlayout')
+2019-11-02 18:52:52,602 baseView.py[line:12] INFO find_element：('id', 'com.tal.kaoyan:id/englishword_book_item_name')
+2019-11-02 18:52:53,409 riliView.py[line:36] INFO success!
+2019-11-02 18:52:54,725 myunit.py[line:18] INFO ====tearDown====
+2019-11-02 18:52:59,726 myunit.py[line:21] INFO ====logout====
+2019-11-02 18:52:59,727 loginView.py[line:66] INFO =====logout_action======
+2019-11-02 18:52:59,727 baseView.py[line:12] INFO find_element：('id', 'com.tal.kaoyan:id/mainactivity_button_mysefl')
+2019-11-02 18:53:00,105 baseView.py[line:12] INFO find_element：('id', 'com.tal.kaoyan:id/activity_usercenter_username')
+2019-11-02 18:53:00,674 baseView.py[line:12] INFO find_element：('id', 'com.tal.kaoyan:id/myapptitle_RightButton_textview')
+2019-11-02 18:53:01,264 baseView.py[line:12] INFO find_element：('id', 'com.tal.kaoyan:id/setting_logout_text')
+2019-11-02 18:53:02,604 baseView.py[line:12] INFO find_element：('id', 'com.tal.kaoyan:id/tip_commit')

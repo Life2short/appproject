@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "测试模块_demo1",
+    "children" : [ {
+      "name" : "测试模块_demo2",
+      "children" : [ {
+        "name" : "创建任务",
+        "uid" : "8f0b1396b938098a",
+        "parentUid" : "44a48ebc543a3be0809639ebbd9a9d10",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574694395118,
+          "stop" : 1574694420895,
+          "duration" : 25777
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建任务",
+        "uid" : "2d2658b3236829c1",
+        "parentUid" : "44a48ebc543a3be0809639ebbd9a9d10",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574694541312,
+          "stop" : 1574694568728,
+          "duration" : 27416
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "44a48ebc543a3be0809639ebbd9a9d10"
+    } ],
+    "uid" : "d98a3a857b543d4bd75824ec7553f96b"
+  } ]
+}
